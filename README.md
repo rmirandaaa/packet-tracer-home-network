@@ -1,0 +1,24 @@
+# Packet Tracer: Configuración de un Enrutador Inalámbrico y Clientes
+
+## Resumen del Proyecto
+Este proyecto de simulación en Cisco Packet Tracer consiste en conectar y configurar la red doméstica cableada e inalámbrica para un hogar, garantizando conectividad segura a Internet para múltiples dispositivos[cite: 6].
+
+## Objetivos
+1. **Conexión Física de Dispositivos:**
+   - Conectar la acometida de cable coaxial desde el *Cable Splitter* hacia el *Cable Modem* y la televisión[cite: 6].
+   - Enlazar el *Cable Modem* al puerto Internet del *Home Wireless Router* mediante cable directo Ethernet[cite: 6].
+   - Conectar las PCs de escritorio (*PC de Oficina* y *PC de Dormitorio*) a los puertos LAN GigabitEthernet del router[cite: 6].
+
+2. **Configuración del Enrutador Inalámbrico:**
+   - Configuración del servidor DHCP local y restricción del número máximo de usuarios a 10[cite: 6].
+   - Actualización de las credenciales de administración del router (cambio de contraseña por defecto a `MyPassword1!`)[cite: 6].
+   - Habilitación de la red Wi-Fi de 2.4 GHz con SSID `MyHome`[cite: 6].
+   - Implementación de seguridad inalámbrica **WPA2 Personal** con la frase de contraseña `MyPassPhrase1!`[cite: 6].
+
+3. **Configuración de Clientes y Verificación de Conectividad:**
+   - Obtención de direcciones IP dinámicas vía DHCP en las PCs cableadas[cite: 6].
+   - Conexión de la computadora portátil (*Laptop*) a la red Wi-Fi `MyHome` mediante la clave precompartida[cite: 6].
+   - Pruebas de conectividad Web navegando exitosamente al servidor externo `skillsforall.srv` desde todos los clientes[cite: 6].
+
+## Requisitos
+- **Cisco Packet Tracer** (v8.0 o superior)[cite: 6].
